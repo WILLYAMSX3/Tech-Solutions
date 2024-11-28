@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="icon" type="image/icon" href="../images/Logo Tech Titulo.png">
+    <link rel="stylesheet" href="../styles/login_two.css">
+</head>
+<body>
+    <!--Início cabeçalho-->
+    <header id="cabecalho">
+        
+            <nav class="cabecalho_container_nav">
+                <div class="cabecalho_container_nav_menu">
+                    <a href="../index.html">
+                        <img src="../images/Logo Tech.png" alt="Logo da tech Aolutions">
+                    </a>
+
+                    <ul class="cabecalho_container_nav_menu_list_links">
+                        <li>
+                            <a class="cabecalho_container_menu_list_links" href="../index.html">
+                                Início
+                            </a>
+                        </li>
+
+                        <li>
+                            <a class="cabecalho_container_menu_list_links" href="#">
+                                Quem somos
+                            </a>
+                        </li>
+
+                        <li><a class="cabecalho_container_menu_list_links" href="#">
+                            Nossa missão
+                        </a>
+                    </li>
+                    </ul>
+                </div>
+            </nav>
+    </header>
+    <!--Fim cabeçalho-->
+
+    <!--Inicio do main-->
+    <main id="inicio">
+        <div class="inicio_container">
+            <h1>
+                Qual o motivo do contato?
+            </h1>
+
+            <form action="concluido.html" method="get" class="incio_container_form">
+                <label for="assunto">Assunto:</label>
+                    <select name="assunto" id="assunto" placeholder="Assunto do contato">
+                        <option selected disabled>Assunto do contato</option>
+                        <option value="">Suporte técnico</option>
+                        <option value="">Consultoria</option>
+                        <option value="">Desenvolvimento de sofware</option>
+                        <option value="">Outros</option>
+                    </select>
+
+                <label for="mensagem">Mensagem:</label>
+                    <textarea name="mensagem" id="mensagem" placeholder="Insira sua mensagem..."></textarea>
+
+                <input id="container_form_button" type="submit" value="Proximo">
+            </form>
+        </div>
+    </main>
+    <!--Fim do main-->
+</body>
+</html>

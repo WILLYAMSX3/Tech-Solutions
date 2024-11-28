@@ -1,0 +1,79 @@
+@import url(global.css);
+
+#inicio{
+    width: 100%;
+}
+
+.inicio_container{
+    width: 100%;
+    max-width: 1665px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+}
+
+.inicio_container h1{
+    color: #FEFEEB;
+    font-size: 50px;
+    font-family: league spartan, Arial, sans-serif;
+}
+
+.incio_container_form{
+    width: 820px;
+    background-color: #FEFEEB;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding: 20px 40px;
+    border-radius: 7px;
+    
+}
+
+.incio_container_form label{
+    color: #008E9E;
+    font-size: 16px;
+    font-family: lexend,Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-top: 35px;
+}
+
+.incio_container_form input{
+    width: 740px;
+    padding: 10px 15px;
+    background-color: #E6E6E5;
+    border: none;
+    border-radius: 7px;
+    color: #000;
+    opacity: 0.8;
+    font-family: lexend, Arial, sans-serif;
+    font-weight: 700;
+    outline: none;
+    display: flex;
+    align-items: center;
+}
+
+#container_form_button{
+    width: 135px;
+    height: 38px;
+    background-color: #26CA67;
+    color: #FEFEEB;
+    margin-top: 30px;
+    font-family: lexend,Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    position: relative;
+    margin-left: 83%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    opacity: 0.8;
+    transition: 0.5s;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.5);
+}
+
+#container_form_button:hover{
+    opacity: 1.3;
+}
